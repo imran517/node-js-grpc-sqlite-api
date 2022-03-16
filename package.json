@@ -1,0 +1,21 @@
+{
+  "name": "node-js-grpc-sqlite-api",
+  "version": "1.0.0",
+  "description": "node-js-grpc-sqlite-api",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imran517/node-js-grpc-sqlite-api"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Imran",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.7",
+    "@grpc/proto-loader": "^0.6.9",
+    "express": "^4.17.3",
+    "sqlite3": "^4.2.0"
+  }
+}
